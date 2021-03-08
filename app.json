@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "cdp-project",
+    "slug": "cdp-project",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cdp-icon.png",
+    "splash": {
+      "image": "./assets/cdp-logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cdp-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.achmadnf.cdpapp"
+    },
+    "web": {
+      "favicon": "./assets/cdp-icon.png"
+    }
+  }
+}
